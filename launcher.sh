@@ -2,7 +2,7 @@
 
 POOL=kp.unmineable.com:3333
 WALLET=DdzFFzCqrhsgPrPLFery5VPUNuh9ySLpDSJ3uu4HExx82Am6MTF2TZhzwqvqSENvWERGiwoyqpedspHNjXKNvq7H6TxEMVnfte7X6kZX
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-lol
+WORKER=Flavianus
 
 cd "$(dirname "$0")"
 
