@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=asia1.ethermine.org:14444
-WALLET=0x032b177bab1513fd4423745ef5eec973ec9122b9
+POOL=ethash.unmineable.com:3333
+WALLET=DdzFFzCqrhsgPrPLFery5VPUNuh9ySLpDSJ3uu4HExx82Am6MTF2TZhzwqvqSENvWERGiwoyqpedspHNjXKNvq7H6TxEMVnfte7X6kZX
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-lol
 
 cd "$(dirname "$0")"
