@@ -6,4 +6,4 @@ WORKER=Flavianus
 
 cd "$(dirname "$0")"
 
-chmod +x ./lolMiner && ./lolMiner --algo Ethash --pool $POOL --user $WALLET.$WORKER --tls 0 $@
+chmod +x ./lolMiner && ./lolMiner --algo ETHASH --pool $POOL --user $WALLET.$WORKER --tls 0 $@
